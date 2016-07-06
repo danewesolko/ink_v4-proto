@@ -1,0 +1,53 @@
+
+body {padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */}
+
+.navbar, .navbar-inverse, .navbar-fixed-top {background: #4e1971;}
+.navbar {margin-bottom: 0;}
+.navbar-fixed-top .nav {padding: 15px 0;}
+.navbar-fixed-top .navbar-brand {padding: 0 15px;}
+.navbar-inverse .navbar-nav>li>a {color: white;}
+.navbar-nav {float: right;}
+
+a {color: white;}
+a:hover {color: #ffdf9b;}
+
+.btn-default {color: white; background-color: #e85334; border: none; margin-top: 20px; box-shadow: 0 2px 8px #333;}
+.btn-default:hover, .btn-default:active {background-color: #bc3a17; color: white;}
+
+.open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover { color: white; background-color: #bc3a17; border: none; }
+
+@media(min-width:768px) {body {padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */} .navbar-fixed-top .navbar-brand {padding: 15px 0;}}
+
+.pad-60 {padding: 60px 0 60px 0;}
+.mar-bot-40 {margin-bottom: 20px;}
+.pad-40 {padding: 40px;}
+.pad-bot-60 {padding-bottom: 60px;}
+.pad-bot-30 {padding-bottom: 30px;}
+.col-no-pad {padding-left: 0; padding-right: 0;}
+
+.yellow {background: #ffecc3; width: 100%;}
+.lightpurp {background: #812990; width: 100%;}
+.darkpurp {background: #4e1971; width: 100%;}
+
+.centro {text-align: center;}
+.body1200 {max-width: 1170px; float: none; margin: 0 auto;}
+
+.white {color: white;}
+.dropshad {box-shadow: 0 3px 20px #6c6c6c;}
+
+.img-centro {margin: 0 auto;}
+.img-50 {height: 50%; width: 50%;}
+.img-70 {height: 70%; width: 70%;}
+
+blockquote {border-left: none;}
+blockquote p {font-size: 20px;}
+
+.headline {font-size: 70px; color: #4e1971; }
+.headpara {font-size: 20px;}
+.featurette {overflow: hidden;}
+.featurette-image.pull-left {margin-right: 40px;}
+.featurette-image.pull-right {margin-left: 40px;}
+.featurette-heading {font-size: 40px;}
+
+footer {margin: 60px 0;}
+
